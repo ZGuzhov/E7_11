@@ -23,10 +23,10 @@ def hello():
 <br>\
 Доступны следующие варианты: <br>\
 - HTTP POST http://83.220.171.117:5000/message?text=text - создания нового сообщения с текстом text <br>\
-- HTTP POST http://83.220.171.117:5000/tag/<message_id>?tag=tag - добавление тега к существующему сообщению с id message_id с текстом тега tag <br>\
-- HTTP POST http://83.220.171.117:5000/comment/<message_id>?comment=comment - добавление комментария к существующему сообщению с id message_id с текстом комментария comment <br>\
-- HTTP GET http://83.220.171.117:5000/message/message_id - получение полного сообщения с id message_id с тегами и комментариями <br>\
-- HTTP GET http://83.220.171.117:5000/stats/message_id - получение статистики по сообщению с id message_id (количество тегов и комментариев)'
+- HTTP POST http://83.220.171.117:5000/tag/&lt;message_id&gt;?tag=tag - добавление тега к существующему сообщению с id message_id с текстом тега tag <br>\
+- HTTP POST http://83.220.171.117:5000/comment/&lt;message_id&gt;?comment=comment - добавление комментария к существующему сообщению с id message_id с текстом комментария comment <br>\
+- HTTP GET http://83.220.171.117:5000/message/&lt;message_id&gt; - получение полного сообщения с id message_id с тегами и комментариями <br>\
+- HTTP GET http://83.220.171.117:5000/stats/&lt;message_id&gt; - получение статистики по сообщению с id message_id (количество тегов и комментариев)'
     return readme
 
 
